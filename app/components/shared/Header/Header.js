@@ -17,7 +17,7 @@ const Header = () => {
             <h3 className='text-3xl font-bold text-red-600 shadow-lg'><span className='italic'>MOVIE</span> HAAT ACTION</h3>
         </div>
         <div className=' hidden md:block'>
-        <ul className={`flex gap-5 relative`}>
+        <ul className={`flex gap-5 relative text-white`}>
           <li className='mr-5 py-2 text-red-500 hover:text-red-500 nav-border'>
             <Link href="/">Home</Link>
           </li>
@@ -68,7 +68,7 @@ const Header = () => {
 
       </nav>
       <div className=' hidden md:block'>
-        <ul className='flex justify-end gap-4 items-center'>
+        <ul className='flex justify-end gap-4 items-center text-white'>
             <li  className="text-xl hover:text-pink-500">
                 <a href=""><span><FiSearch/> </span> </a>
             </li>
