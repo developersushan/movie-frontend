@@ -32,15 +32,15 @@ const HomeCard = ({item:{id,cover,name,rating,time,desc,starring,genres,tags,vid
                 {starring}
             </h4>
             <h4>
-                <span>Genres</span>
+                <span className='text-red-500'>Genres</span>
                 {genres}
             </h4>
             <h4>
-                <span>Tags</span>
+                <span className='text-red-500'>Tags</span>
                 {tags}
             </h4>
         </div >
-        <button className='primary-btn flex items-center gap-1 text-white py-2 px-2 bg-red-500'><span className='text-white'><FaPlay/></span>PLAY NOW</button>
+        <button className='primary-btn flex items-center gap-1 text-white py-2 px-3 bg-red-600'><span className='text-white'><FaPlay/></span>PLAY NOW</button>
         </div>
         <div className='playButton row flex justify-center items-center'>
             <Link href={`/singlePage/${id}`}>

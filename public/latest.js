@@ -1,31 +1,36 @@
+import LetestMv6 from '../images/upcome/u6.png'
+import LetestMv7 from '../images/upcome/u7.jpg'
+import LetestMv1 from '../images/upcome/u1.jpg'
+import LetestMv5 from '../images/upcome/u5.jpg'
+import LetestMv4 from '../images/upcome/u4.jpg'
 export const latest = [
     {
       id: 1,
-      cover: "../images/upcome/u6.png",
+      cover:LetestMv6,
       name: "King of Jungle",
       time: "2hr : 38mins",
     },
     {
       id: 2,
-      cover: "../images/upcome/u7.jpg",
+      cover: LetestMv7,
       name: "The illusion",
       time: "2hr : 38mins",
     },
     {
       id: 3,
-      cover: "../images/upcome/u1.jpg",
+      cover: LetestMv1,
       name: "Latest Movie",
       time: "2hr : 38mins",
     },
     {
       id: 4,
-      cover: "../images/upcome/u5.jpg",
+      cover: LetestMv5,
       name: "Latest two",
       time: "2hr : 38mins",
     },
     {
       id: 5,
-      cover: "../images/upcome/u4.jpg",
+      cover: LetestMv4,
       name: "Latest Three",
       time: "2hr : 38mins",
     },

@@ -1,3 +1,6 @@
+import Slider1 from '../images/img/slide1.png'
+import Slider2 from '../images/img/slide2.jpg'
+import Slider3 from '../images/img/slide3.jpg'
 export const trending = [
     {
       id: 1,
@@ -8,7 +11,7 @@ export const trending = [
       starring: "Karen Gilchrist, James Earl Jones",
       genres: "Action",
       tags: "Action, Adventures, Horror",
-      cover: "../images/img/slide1.png",
+      cover: Slider1,
       date: "20-Jan-1997",
     },
     {
@@ -20,7 +23,7 @@ export const trending = [
       starring: "Brenda Chapman, Jeff Nathanson",
       genres: "Adventures",
       tags: "Adventures,Animation,Family",
-      cover: "../images/img/slide2.jpg",
+      cover: Slider2,
       date: "10-JUL-2021",
     },
     {
@@ -32,7 +35,7 @@ export const trending = [
       starring: "James Chinlund, Jeff Nathanson",
       genres: "Adventures",
       tags: "Adventures,Action ",
-      cover: "../images/img/slide3.jpg",
+      cover: Slider3,
       date: "20-FEB-2010",
     },
   ]
