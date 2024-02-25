@@ -6,7 +6,7 @@ const Trending = () => {
   const [items,setItems] = useState(trending)
   return (
     <>
-            <section className='trending text-white'>
+            <section className='trending text-white mt-12'>
         <Homes items={items} />
       </section>
     </>
