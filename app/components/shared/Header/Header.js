@@ -10,7 +10,7 @@ const Header = () => {
     const pathname = usePathname()
 
   return (
-    <div  className='mx-auto flex py-3 items-center justify-center bg-neutral-900 shadow-xl'>
+    <div  className='header mx-auto flex py-3 items-center justify-center  shadow-xl'>
 
         <nav className='md:w-8/12 w-full px-3 md:px-0 flex items-center relative justify-between'>
         <div className=''>

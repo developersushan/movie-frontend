@@ -3,7 +3,19 @@
 @tailwind components;
 @tailwind utilities;
 
+
 /* custom css*/
+body{
+  background: black !important;
+}
+.header{
+  background-image: linear-gradient(to right bottom ,rgba(0,0,0,0.9),rgba(0,0,0,0.9),rgba(0,0,0,0.6),rgba(0,0,0,0.5),rgba(0,0,0,0.0));
+  position: relative;
+  z-index: 999;
+  position: sticky;
+  top: 0%;
+  
+}
 .active{
   color: red;
 }
